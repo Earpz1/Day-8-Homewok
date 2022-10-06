@@ -89,7 +89,6 @@ for (i = 0; i < array.length; i++) {
  Replace all the strings contained in an array with their length.
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
-
 const arrayOfStrings = ['Hello', 'Everybody', 'Today', 'is', 'Thursday']
 console.log(arrayOfStrings)
 for (i = 0; i < arrayOfStrings.length; i++) {
