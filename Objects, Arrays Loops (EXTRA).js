@@ -90,4 +90,9 @@ for (i = 0; i < array.length; i++) {
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 
-/* WRITE YOUR ANSWER HERE */
+const arrayOfStrings = ['Hello', 'Everybody', 'Today', 'is', 'Thursday']
+console.log(arrayOfStrings)
+for (i = 0; i < arrayOfStrings.length; i++) {
+  arrayOfStrings.splice(i, 1, arrayOfStrings[i].length)
+}
+console.log(arrayOfStrings)
