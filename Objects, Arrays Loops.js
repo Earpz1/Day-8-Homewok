@@ -164,17 +164,26 @@ carsForRent.pop()
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log(carsForRent)
 
 /* EXERCISE 12
  Create a new variable called carsForSale assigning to it an empty array, and then insert 3 cars into it.
  Create a new variable called totalCars and assign to it the total number of cars present in the carsForSale and carsForRent arrays.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let carsForSale = []
+
+carsForSale.push('Ford Focus')
+carsForSale.push('Ford Kuga')
+carsForSale.push('Ford Escort')
+
+let totalCars = carsForSale.length + carsForRent.length
+console.log(`In total we have ${totalCars} available for rent and sale`)
 
 /* EXERCISE 13
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+for (i = 0; i < carsForSale.length; i++) {
+  console.log(`1) ${carsForSale[i]}`)
+}
